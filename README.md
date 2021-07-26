@@ -11,4 +11,4 @@ Sistema de Comercio para fins de estudo na criação de uma API usando a Framewo
 
 ## License
 
-The Syscom é open-source para uso geral.
+O Syscom é open-source para uso geral.
