@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -35,6 +35,7 @@ return [
 
     'connections' => [
 
+        /*
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
@@ -43,9 +44,10 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
+        */
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
+            //'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
